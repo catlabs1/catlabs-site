@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>DNLV - дизайн для сайтов и не только</title>
+</head>
+
+<body>
+    <header>
+        <div class="section">
+            <div class="nav">
+                <img class="nav-logo" src="img/logo.svg" alt="Логотип">
+                <nav class="header__nav">
+                    <ul class="menu" id="menu">
+                        <li><a class="menu-link" href="#">Услуги</a></li>
+                        <li><a class="menu-link" href="#">Навыки</a></li>
+                        <li><a class="menu-link" href="#">Проекты</a></li>
+                        <li><a class="menu-link" href="#">Сертификаты</a></li>
+                        <button data-modal="consultation" class="button-link button section1__button">Консультация</button>
+                    </ul>
+                    <!-- иконка бургер меню -->
+                    <div class="hamb-field" id="hamb">
+                        <i class="fa-solid fa-bars "></i>
+                    </div>
+                </nav>
+            </div>
+            <div class="first-block">
+                <div class="first-block__flex">
+                    <p class="head-text">Хотите себе
+                        креативный
+                        сайт?</p>
+                    <p class="text">Хотите себе креативный сайт?
+                        Я могу помочь вам в этом.</p>
+                    <a href="#" class="button-cta">Заказать</a>
+                </div>
+                <img class="code-image" src="img/code.png" alt="Картинка с кодом">
+            </div>
+        </div>
+    </header>
+    <div class="popup" id="popup"></div>
+    
+    <!---->
+    <div class="overlay">
+        <!--modalnoe okno-->
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Заполните форму заявки</div>
+            <div class="modal__discription">Ответ придёт в течение часа</div>
+            <form class="feed-form">
+                <input class="input" required type="text" name="name" placeholder="Имя">
+                <input class="input" required type="number" name="phone" placeholder="Телефон">
+                <input class="input" required type="email" name="email" placeholder="Email">
+                <button data-modal="thanks" class="button-modal">Заказать консультацию</button>
+            </form>
+        </div>
+
+        <div class="modal modal--mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку</div>
+            <div class="model__discription">Ответ придёт в течение часа</div>
+        </div>
+    </div>
+    <!---->
+
+    <div class="block">
+        <!--услуги-->
+        <div class="block-content">
+            <p class="head-text-zagolovok">Мы предлагаем</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/globus.png" alt="Глобус">
+                    <div class="card-flex">
+                        <p class="card-head-text">Веб-разработка</p>
+                        <img src="img/arrow.svg" alt="Стрелка">
+                    </div>
+                    <p class="card-text">
+                        Тут какой-то текст пока, настоящий текст где-то
+                        потерялся, но скоро тут появится настоящий
+                        текст, который заменит этот.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/picture.png" alt="Изображение">
+                    <div class="card-flex">
+                        <p class="card-head-text">Веб-дизайн</p>
+                        <img src="img/arrow.svg" alt="Стрелка">
+                    </div>
+                    <p class="card-text">
+                        Тут какой-то текст пока, настоящий текст где-то
+                        потерялся, но скоро тут появится настоящий
+                        текст, который заменит этот.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/finger.png" alt="Указательный Палец">
+                    <div class="card-flex">
+                        <p class="card-head-text">Правка сайта</p>
+                        <img src="img/arrow.svg" alt="Стрелка">
+                    </div>
+                    <p class="card-text">
+                        Тут какой-то текст пока, настоящий текст где-то
+                        потерялся, но скоро тут появится настоящий
+                        текст, который заменит этот.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-blue special">
+        <!--навыки-->
+        <div class="block-content special between adaptiv">
+            <div class="block1">
+                <p class="head-text-zagolovok-spec">Навыки</p>
+                <div class="hashtage-container">
+                    <div class="hashtage">#</div>
+                    <div class="hashtage">Front-End</div>
+                    <div class="hashtage">Web-design</div>
+                    <div class="hashtage">UX/UI</div>
+                </div>
+                <div class="hashtage-container">
+                    <div class="hashtage">HTML/CSS</div>
+                    <div class="hashtage">Sass</div>
+                    <div class="hashtage">JavaScript</div>
+                </div>
+                <div class="hashtage-container">
+                    <div class="hashtage">Figma</div>
+                    <div class="hashtage">Photoshop</div>
+                </div>
+            </div>
+            <div class="block2">
+                <p class="head-text-zagolovok-spec">Опыт работы</p>
+                <p class="text-exp">Web-design: <span class="text-exp-dop">2,5 года</span></p>
+                <p class="text-exp">Front-End: <span class="text-exp-dop">2 года</span></p>
+                <p class="text-exp">UX/UI: <span class="text-exp-dop">3 месяца</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- JAVASCRIPT -->
+    <section class="tabs-js">
+        <div class="container">
+            <div class="tabs">
+                <p class="head-text-zagolovok adaptive-head-text">Проекты</p>
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active" data-tab-name="tab-1">Все проекты</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-2">Веб-дизайн</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-3">Веб-разработка</div>
+                </div>
+            </div>
+            <div class="tabs__content">
+                <div class="tab is-active tab-1">
+                    <div class="tabs__content-grid">
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">EgeWorld
+                            </p>
+                            <p class="tabs-text">Это онлайн-школа для подготовки учащихся к экзаменам.</p>
+                        </div>
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">ЕГЭ-Студия
+                            </p>
+                            <p class="tabs-text">Центр подготовки в Москве, который готовит учеников
+                                к олимпиадам, экзаменам и т.д.</p>
+
+                        </div>
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">Easy
+                            </p>
+                            <p class="tabs-text">Твой личный помощник в вузе. Когда время горит,
+                                а работа нужна.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab tab-2">
+                    <div class="tabs__content-grid">
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">ЕГЭ-Студия
+                            </p>
+                            <p class="tabs-text">Центр подготовки в Москве, который готовит учеников
+                                к олимпиадам, экзаменам и т.д.</p>
+
+                        </div>
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">Easy
+                            </p>
+                            <p class="tabs-text">Твой личный помощник в вузе. Когда время горит,
+                                а работа нужна.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab tab-3">
+                    <div class="tabs__content-grid">
+                        <div class="tabs-elem">
+                            <img src="img/colors.jpg" alt="Фото1" class="tabs__grid-photo">
+                            <p class="tabs__grid-text">EgeWorld
+                            </p>
+                            <p class="tabs-text">Это онлайн-школа для подготовки учащихся к экзаменам.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="work-link" href="#">Другие работы</a></li>
+        </div>
+    </section>
+    <!-- JAVASCRIPT -->
+
+    <div class="block-blue">
+        <!--сертификаты-->
+        <div class="block-content ">
+            <p class="head-text-zagolovok-spec">Сертификаты</p>
+            <div class="slider">
+                <div class="slider-image"><img src="img/certificate1.png" alt="Сертификат 1"></div>
+                <div class="slider-image"><img src="img/certificate2.png" alt="Сертификат 2"></div>
+                <div class="slider-image"><img src="img/certificate3.png" alt="Сертификат 3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <!--заявка-->
+        <div class="block-content spec adaptiv special-block">
+            <div class="block1">
+                <p class="head-text-zagolovok">Оставить заявку</p>
+                <p class="block-text">Осталось лишь рассказать о своём
+                    проекте. Бриф можно скачать <a href="#" class="brief-link">здесь</a>
+                </p>
+                <form name="main" action="#" class="main-form">
+                <div class="form">
+                    <div class="form-flex">
+                        <label for="work-type">Тип работы</label>
+                        <select class="inputs" name="" id="work-type" required>
+                            <option value="">Выберите тип работы</option>
+                            <option value="">Веб-дизайн</option>
+                            <option value="">Веб-разработка</option>
+                            <option value="">Правка сайта</option>
+                        </select>
+                    </div>
+                    <div class="form-flex">
+                        <label for="fio">ФИ</label>
+                        <input class="inputs" type="text" placeholder="Петя Ильясов"  id="fio" pattern="^[A-Za-zА-Яа-яЁё\s]+$" autocomplete="off" required>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <div class="form-flex">
+                        <label for="telegram">Почта</label>
+                        <input class="inputs" type="text" placeholder="bob@mail.ru" name="nameInput" id="telegram" autocomplete="off" required>
+                    </div>
+                    <div class="form-flex">
+                        <label for="blocks">Количество блоков</label>
+                        <input class="inputs" type="number" placeholder="3" id="blocks" autocomplete="off" required>
+                    </div>
+                </div>
+                <div class="form-end">
+                    <div class="clip">
+                        <label class="clip-text">Прикрепить бриф</label>
+                        <input type="file">
+
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Отправить">
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div class="block2">
+                <div class="message">
+                    <span class="head-text-zagolovok">Привет!</span>
+                    <img class="message-icon" src="img/comment.png" alt="Привет">
+                </div>
+                <p class="main-text">
+                    Всего один шаг отделяет тебя от твоего сайта.
+                    Я всегда открыт к новым предложениям,
+                    обсуждениям деталей твоего проекта.
+                </p>
+                <div class="contacts">
+                    <div class="mail">
+                        <p class="mail-text">Почта</p>
+                        <p><a class="mail" href="mailto:hello@catlabs.ru">hello@catlabs.ru</a></p>
+                    </div>
+                    <div class="mail">
+                        <p class="mail-text">Соц.сети</p>
+                        <a class="mail" href="https://vk.com/" target="blank">VK</a>
+                        <a class="mail" href="https://behance.com/" target="blank">Be</a>
+                        <a class="mail" href="https://tenchat.ru/" target="blank">Tenchat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="block-blue footer">
+            <div class="block-content">
+                <img src="img/logo.svg" alt="Логотип">
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+</body>
+
+</html>
